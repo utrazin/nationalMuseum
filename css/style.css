@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* WebSite Structure */
+body {
+  background: #f4f2ec url('../img/fundo.png') repeat-x;
+  font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+#container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+a:link,
+a:active,
+a:visited {
+  color: #af670a;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #227115;
+}
+
+h3 {
+  color: #227115;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 1.2em;
+  color: #86521a;
+  text-transform: uppercase;
+  padding-bottom: 3px;
+  margin-bottom: 0;
+}
+
+/* Logo */
+#logo a {
+  width: 248px;
+  height: 21px;
+  text-indent: -9999px;
+  display: block;
+  background: url('../img/logo.png');
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  height: 55px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 20px;
+  display: flex;
+}
+
+nav ul li {
+  padding: 15px;
+}
+
+nav ul li a:link {
+  display: block;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  padding-bottom: 3px;
+}
+
+nav ul li a:hover {
+  border-bottom: 1px solid #227115;
+}
+
+/* Main Content */
+#main {
+  margin: 10px 0 0 0 ;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#main-content {
+  width: 710px;
+}
+
+#posts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#posts article {
+  width: 48%;
+}
+
+#posts h3 {
+  margin-top: 20px;
+}
+
+#exhibitions ul {
+  margin-left: 25px;
+}
+
+/* Aside */
+aside {
+  width: 350px;
+  background: #ebe7dd;
+  float: none;
+}
+
+#visit {
+  background: #cdc8b1;
+  padding: 10px 27px 27px 27px;
+  margin-top: 10px;
+}
+
+#gallery {
+  margin: 20px 0 30px 0;
+}
+
+#gallery h4 {
+  margin: 10px;
+  text-align: center;
+}
+
+#gallery a img {
+  width: 93px;
+  height: 93px;
+}
+
+#gallery a {
+  display: block;
+  background: url('../img/fundo-foto.png') no-repeat;
+  padding: 18px 15px 15px 15px;
+  margin: 10px;
+}
+
+#gallery-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Footer */ 
+footer {
+  width: 100%;
+  background: url('../img/fundo-rodape.png');
+  padding: 20px 0 30px 0;
+  text-align: center;
+}
+
+footer a:not(:last-child) {
+  padding-right: 5px;
+}
+
+footer p:nth-child(2) {
+  margin-top: 10px;
+}
+
+footer span {
+  color: #af670a;
+}
+
+/* Forms */
+input {
+  height: 20px;
+  background: #fff;
+  border: none;
+  font-size: 1em;
+  width: 80px;
+}
+
+input.camp {
+  border: 1px solid #ada484;
+}
+
+input.button {
+  background: #9b9271;
+  color: #fff;
+  width: 100%;
+  height: 40px;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+legend {
+  display: none;
+}
